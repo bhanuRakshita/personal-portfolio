@@ -6,7 +6,8 @@ window.projects = [
         show: true,
         categories: ["js", "htmlcss"],
         imageUrl: "img/bbbb.png",
-        projectUrl: ""
+        projectUrl: "",
+        gitHubLink: "https://github.com/bhanuRakshita/personal-portfolio"
     },
 
     {
@@ -16,7 +17,8 @@ window.projects = [
         show: true,
         categories: ["js", "htmlcss"],
         imageUrl: "img/project-img/intl-frnd.png",
-        projectUrl: "#"
+        projectUrl: "https://github.com/bhanuRakshita/studInt",
+        gitHubLink: "https://github.com/bhanuRakshita/studInt"
     },
 
     {
@@ -26,7 +28,8 @@ window.projects = [
         show: true,
         categories: ["js", "htmlcss"],
         imageUrl: "img/project-img/sort-visualizer.png",
-        projectUrl: "https://bhanurakshita-algolizer.netlify.app/"
+        projectUrl: "https://bhanurakshita-algolizer.netlify.app/",
+        gitHubLink: "https://github.com/bhanuRakshita/algolizer"
     },
 
     
