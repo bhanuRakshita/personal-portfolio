@@ -132,9 +132,10 @@ form.addEventListener('reset', (e) => {
     errorElement.innerHTML = '';
 })
 
-form.addEventListener('submit', (e)=>{
-    console.log("yayyayayyayayaya");
-})
+function reset(){
+    messages = [];
+    errorElement.innerHTML = '';
+}
 
 
 // Validation for the name input

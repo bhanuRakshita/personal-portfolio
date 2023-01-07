@@ -354,7 +354,7 @@ a {
 /* ========== ABOUT =========== */
 
 .about-section {
-    padding: 20px 0 100px 150px;
+    padding: 20px 0 50px 150px;
 }
 
 .about-text {
@@ -414,7 +414,7 @@ a {
 /* ========== SKILLS =========== */
 
 .skills-section {
-    padding: 0px 100px 80px 120px;   
+    padding: 0px 100px 0px 120px;   
     
     justify-content: center;
     align-items: center;
@@ -456,12 +456,18 @@ a {
 
 .project-section {
     /* margin-right: 40px; */
-    padding: 20px 0px 100px 150px;   
+    padding: 0px 0px 100px 100px;   
     min-height: 500px;
 }
 
 .project-heading {
-    padding-left: 20px;
+    transform: translateX(-5%);
+    padding-left: 0px;
+    text-align: center;
+}
+
+.h3-project-heading {
+    text-align: center;
 }
 
 .project-container {

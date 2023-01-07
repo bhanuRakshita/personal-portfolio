@@ -30,13 +30,10 @@ const messageSchema = {
 //creating mongoose.model
 const Message = mongoose.model("Message", messageSchema);
 
-app.get("/loadingPage", (req, res)=>{
-    res.sendFile(__dirname+"/loadingPage.html");
+app.get("/", (req, res)=>{
+    res.sendFile(__dirname+"/index.html");
 });
 
-app.get("/portfolio", (req, res)=>{
-    res.sendFile(__dirname + "/index.html");
-});
 
 app.post("/", (req,res)=>{
     const message = new Message({
@@ -48,6 +45,5 @@ app.post("/", (req,res)=>{
         pay: req.body.payRate
     });
 
-    message.save();
-    res.redirect("/#contact");
+    message.save(); 
 })

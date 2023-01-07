@@ -1,5 +1,5 @@
 const timeout = setTimeout(function goTo() {
-    window.location.href= "index.html";
+    window.location.href= "portfolio.html";
 }, 7000);
 
 const loadingSvgLogo = document.querySelectorAll("#loading-svg-logo path");

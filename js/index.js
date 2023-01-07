@@ -27,6 +27,7 @@ function createCard() {
           var projectDiv = document.createElement("DIV");
           projectDiv.classList.add("project");
           var title = document.createElement("h3");
+          title.classList.add("h3-project-heading");
           var name = document.createTextNode(project.title);
           title.appendChild(name);
           projectDiv.appendChild(title);
@@ -35,7 +36,7 @@ function createCard() {
           cardDiv.appendChild(topTextDiv);
           var descrDiv = document.createElement("p");
           descrDiv.classList.add("description");
-          var description = document.createTextNode(project.description.substring(0,100)+"...");
+          var description = document.createTextNode(project.description.substring(0,150));
           descrDiv.appendChild(description);
           topTextDiv.appendChild(descrDiv);
           
@@ -45,7 +46,7 @@ function createCard() {
           var cartDiv = document.createElement("DIV");
           cartDiv.classList.add("cart");
           var cartA = document.createElement("A");
-          cartA.href = "#";
+          cartA.href = project.projectUrl;
           var addToCart = document.createTextNode("View Project");
           cartA.appendChild(addToCart);
           cartDiv.appendChild(cartA);

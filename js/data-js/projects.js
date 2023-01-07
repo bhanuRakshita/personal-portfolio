@@ -1,18 +1,18 @@
 window.projects = [
     {
         id: "project1",
-        title: "Sort Visualizer",
-        description: "It visualizes various sorting techniques ",
+        title: "Personal Portfolio",
+        description: "This is the first website ever created by me and it gives you little glimpses of my life.",
         show: true,
         categories: ["js", "htmlcss"],
         imageUrl: "img/bbbb.png",
-        projectUrl: "#"
+        projectUrl: ""
     },
 
     {
         id: "project2",
-        title: "Headline comes here",
-        description: "Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.",
+        title: "studInt",
+        description: "It could easily a best friend of an international student who is planning to or is a freshie in Canada.",
         show: true,
         categories: ["js", "htmlcss"],
         imageUrl: "img/project-img/intl-frnd.png",
@@ -21,12 +21,12 @@ window.projects = [
 
     {
         id: "project3",
-        title: "Sort Visualizer",
-        description: "It visualizes various sorting techniques ",
+        title: "AlgoLizer",
+        description: "It visualizes various sorting techniques like selection, bubble, insertion, merge and quick sorts using graphical representation.",
         show: true,
         categories: ["js", "htmlcss"],
         imageUrl: "img/project-img/sort-visualizer.png",
-        projectUrl: "#"
+        projectUrl: "https://bhanurakshita-algolizer.netlify.app/"
     },
 
     
