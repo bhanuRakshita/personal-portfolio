@@ -36,6 +36,7 @@ app.get("/", (req, res)=>{
 
 
 app.post("/", (req,res)=>{
+    console.log("here");
     const message = new Message({
         name: req.body.name,
         email: req.body.email,
@@ -45,5 +46,12 @@ app.post("/", (req,res)=>{
         pay: req.body.payRate
     });
 
-    message.save(); 
+    message.save((err)=>{
+        if(err){
+            console.log(err);
+            res.send(400,'bad request');
+        }
+
+        res.redirect("/portfolio.html#contact");
+    }); 
 })
