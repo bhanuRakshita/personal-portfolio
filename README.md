@@ -2,13 +2,15 @@
 
 First, install all the node modules
 
-bash
+```bash
 npm init
+```
 
 Then, run the server:
 
-bash
+```bash
 node app.js
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
