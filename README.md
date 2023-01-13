@@ -18,4 +18,4 @@ You can start editing the page by modifying `./portfolio.html`.
 
 ## Deploy on Netlify
 
-The easiest way to deploy my portfolio was through [Netlify]{https://www.netlify.com/}.
+The easiest way to deploy my portfolio was through [Netlify](https://www.netlify.com/).
