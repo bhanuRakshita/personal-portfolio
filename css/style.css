@@ -360,6 +360,7 @@ a {
 .about-text {
     text-align: justify;
     padding-right: 50px;
+    font-size: 17px;
 }
 
 .about-pic {

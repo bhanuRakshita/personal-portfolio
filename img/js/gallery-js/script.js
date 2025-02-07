@@ -6,11 +6,11 @@ const swiper = document.querySelector('#swiper');
 const imgUrls = [
    './img/gallery/me1.jpeg',
    './img/gallery/hockey.jpeg',
-   './img/gallery/skating.jpeg',
-   './img/gallery/me2.jpeg',
    './img/gallery/painting.jpeg',
-   './img/gallery/me3.jpeg',
-   './img/gallery/mun.jpeg',
+   './img/gallery/hackSeneca.jpeg',
+   './img/gallery/me4.jpeg',
+   './img/gallery/ms.jpeg',
+   
 ];
 
 //
