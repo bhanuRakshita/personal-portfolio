@@ -6,7 +6,7 @@ window.projects = [
         show: true,
         categories: ["js", "htmlcss"],
         imageUrl: "img/project-img/ww.png",
-        projectUrl: "hXps://www.youtube.com/watch?v=yi6ymWK7IaA",
+        projectUrl: "https://www.youtube.com/watch?v=yi6ymWK7IaA",
         gitHubLink: "https://github.com/bhanuRakshita/personal-portfolio"
     },
 
@@ -39,7 +39,7 @@ window.projects = [
         show: true,
         categories: ["js", "htmlcss"],
         imageUrl: "img/project-img/signify.png",
-        projectUrl: "https://www.youtube.com/watch?v=yi6ymWK7IaA",
+        projectUrl: "https://www.youtube.com/watch?v=h1M6SkJgcqs",
         gitHubLink: "https://github.com/bhanuRakshita/algolizer"
     },
 
