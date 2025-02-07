@@ -7,9 +7,9 @@ const imgUrls = [
    './img/gallery/me1.jpeg',
    './img/gallery/hockey.jpeg',
    './img/gallery/painting.jpeg',
-   './img/gallery/hackSeneca.jpeg',
-   './img/gallery/me4.jpeg',
-   './img/gallery/ms.jpeg',
+   './img/gallery/hackSeneca.jpg',
+   './img/gallery/me4.jpg',
+   './img/gallery/ms.jpg',
    
 ];
 
