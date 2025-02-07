@@ -45,29 +45,26 @@ function createCard() {
           
           var cartDiv = document.createElement("DIV");
           cartDiv.classList.add("cart");
-          var cartA = document.createElement("A");
-          cartA.href = project.projectUrl;
-          var addToCart = document.createTextNode("Project");
-          cartA.appendChild(addToCart);
+          var comingSoonText = document.createTextNode("Coming Soon");
+          var projectLinkTag = document.createElement("A");
+          projectLinkTag.href = project.projectUrl;
+          var projectText = document.createTextNode("Project");
+          projectLinkTag.appendChild(projectText);
 
           var gitA = document.createElement("A");
           gitA.href = project.gitHubLink;
           var github = document.createTextNode("GitHub");
           gitA.appendChild(github);
 
-          cartDiv.appendChild(cartA);
+          if(project.projectUrl){
+            cartDiv.appendChild(projectLinkTag);
+          } else {
+            cartDiv.appendChild(comingSoonText);
+          }
+          
           cartDiv.appendChild(gitA);
 
           bottomTextDiv.appendChild(cartDiv); 
-          
-          // var goToGit = document.createElement("DIV");
-          // cartDiv.classList.add("cart");
-          // var gitA = document.createElement("A");
-          // gitA.href = project.gitHubLink;
-          // var github = document.createTextNode("GitHub");
-          // gitA.appendChild(github);
-          // goToGit.appendChild(gitA);
-          // bottomTextDiv.appendChild(goToGit);
 
           cardDiv.appendChild(bottomTextDiv);
           projectContainer.appendChild(cardDiv);
